@@ -1,2 +1,3 @@
-# dataStructureAndAlgorithm
-数据结构和算法
+# 数据结构和算法
+
+> 记录碰到的问题抽象出来的数据结构和算法
