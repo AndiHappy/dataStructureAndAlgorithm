@@ -1,5 +1,7 @@
 package com.alg.leetcode;
 
+import com.alg.util.ArraysUtil;
+
 /**
  * @author AndiHappy L04MedianofTwoSortedArrays.java
  *
@@ -115,38 +117,7 @@ public class L04MedianofTwoSortedArrays {
   }
 
   public static void quickSort(int[] arrays) {
-    quickSort(arrays, 0, arrays.length - 1);
-  }
-
-  private static void quickSort(int[] arrays, int i, int j) {
-    if (i < 0 || j > arrays.length - 1) {
-      throw new IllegalArgumentException("ĲķΧ");
-    }
-
-    if (i < j) {
-      int index = quickSortContent(arrays, i, j);
-      quickSort(arrays, i, index - 1);
-      quickSort(arrays, index + 1, j);
-    }
-  }
-
-  private static int quickSortContent(int[] arrays, int i, int j) {
-    int key = arrays[i];
-    int ii = i + 1;
-    for (int k = i + 1; k <= j; k++) {
-      if (arrays[k] <= key) {
-        swap(arrays, ii, k);
-        ii++;
-      }
-    }
-    swap(arrays, ii - 1, i);
-    return ii - 1;
-  }
-
-  private static void swap(int[] arrays, int ii, int k) {
-    int temp = arrays[ii];
-    arrays[ii] = arrays[k];
-    arrays[k] = temp;
+    ArraysUtil.quickSort(arrays);
   }
 
   public static void main(String[] args) {

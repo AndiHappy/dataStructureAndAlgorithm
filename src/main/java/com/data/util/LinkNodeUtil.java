@@ -68,7 +68,6 @@ public class LinkNodeUtil {
     l2.next = new ListNode(11);
     l2.next.next = new ListNode(13);
     printLinkNode(l2);
-
     printLinkNode(mergeLinkNodes(l1, l2));
   }
 }
