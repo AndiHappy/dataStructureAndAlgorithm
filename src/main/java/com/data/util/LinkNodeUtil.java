@@ -1,5 +1,7 @@
 package com.data.util;
 
+import java.util.Stack;
+
 /**
  * @author AndiHappy LinkNodeUtil.java
  * 
@@ -58,16 +60,50 @@ public class LinkNodeUtil {
     System.out.println();
   }
 
+  /**
+   * 从尾到头的输出链表
+   */
+  public static void printTail2HeadLinkNode(ListNode node) {
+    if (node != null) {
+      Stack<Integer> stack = new Stack<Integer>();
+      stack.push(node.val);
+      while (node.next != null) {
+        stack.push(node.next.val);
+        node = node.next;
+      }
+
+      while (!stack.isEmpty()) {
+        System.out.print(stack.pop());
+        if (!stack.isEmpty()) {
+          System.out.print(" => ");
+        }
+      }
+    }
+  }
+
+  /**
+   * 从尾到头的输出链表
+   */
+  public static void printTail2HeadLinkNode2(ListNode node) {
+    if (node.next != null) {
+      printTail2HeadLinkNode2(node.next);
+      System.out.print(node.val + " => ");
+    } else {
+      System.out.print(node.val + " => ");
+    }
+  }
+
   public static void main(String[] args) {
     ListNode l1 = new ListNode(8);
     l1.next = new ListNode(9);
     l1.next.next = new ListNode(10);
     printLinkNode(l1);
+    printTail2HeadLinkNode2(l1);
 
-    ListNode l2 = new ListNode(7);
-    l2.next = new ListNode(11);
-    l2.next.next = new ListNode(13);
-    printLinkNode(l2);
-    printLinkNode(mergeLinkNodes(l1, l2));
+//    ListNode l2 = new ListNode(7);
+//    l2.next = new ListNode(11);
+//    l2.next.next = new ListNode(13);
+//    printLinkNode(l2);
+//    printLinkNode(mergeLinkNodes(l1, l2));
   }
 }
