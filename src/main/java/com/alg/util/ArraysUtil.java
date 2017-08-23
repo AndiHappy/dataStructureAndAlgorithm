@@ -25,13 +25,13 @@ public class ArraysUtil {
    */
   private static void quicksort(int[] a, int from, int end) {
     if (from < end) {
-      int mid = quicksortkey(a, from, end);
+      int mid = quicksortkeyindex(a, from, end);
       quicksort(a, mid + 1, end);
       quicksort(a, from, mid - 1);
     }
   }
 
-  private static int quicksortkey(int[] a, int from, int end) {
+  public static int quicksortkeyindex(int[] a, int from, int end) {
     int key = a[from];
     int j = from + 1;// 开始的位置作为key值，比较从from+1开始
     for (int i = from + 1; i <= end; i++) {
