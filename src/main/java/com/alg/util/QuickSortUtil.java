@@ -2,6 +2,8 @@ package com.alg.util;
 
 import java.util.Arrays;
 
+import com.data.util.RandEnum;
+
 /**
  * @author zhailz
  * @Date 2017年8月23日 - 上午8:22:49
