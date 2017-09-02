@@ -1,8 +1,6 @@
-package com.alg.util;
+package com.data.util;
 
 import java.util.Arrays;
-
-import com.data.util.RandEnum;
 
 /**
  * @author zhailz

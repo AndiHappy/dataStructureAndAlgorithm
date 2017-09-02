@@ -1,4 +1,4 @@
-package com.alg;
+package com.alg.interview;
 
 /**
  * @author zhailz

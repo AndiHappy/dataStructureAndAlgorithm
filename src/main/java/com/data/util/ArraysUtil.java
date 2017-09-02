@@ -1,4 +1,4 @@
-package com.alg.util;
+package com.data.util;
 
 /**
  * @author AndiHappy SortUtil.java

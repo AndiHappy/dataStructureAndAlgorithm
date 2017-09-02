@@ -1,4 +1,4 @@
-package com.alg.util;
+package com.data.util;
 //红黑树的节点
   public class RBNode<E>{
     // 父节点

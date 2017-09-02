@@ -8,8 +8,6 @@ import sun.misc.Unsafe;
  * @author AndiHappy CollectionTest.java
  *
  * @date 2017年1月9日 下午8:14:11
- * 
- * 得到Unsafe类的使用权
  */
 public class UnsafeUse {
   public  static Unsafe getUnsafe() {

@@ -1,6 +1,4 @@
-package com.alg.util;
-
-import com.data.util.MyStack;
+package com.data.util;
 
 /**
  * @author zhailz

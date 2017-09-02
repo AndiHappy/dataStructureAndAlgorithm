@@ -1,6 +1,6 @@
 package com.zlz.sort;
 
-import com.alg.util.Chect;
+import com.data.util.Chect;
 
 /**
  * @author zhailz
