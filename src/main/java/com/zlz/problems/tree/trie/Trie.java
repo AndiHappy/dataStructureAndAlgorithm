@@ -1,4 +1,4 @@
-package com.zlz.tree.trie;
+package com.zlz.problems.tree.trie;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,8 +1,8 @@
 package com.problems;
 
 import com.data.util.LinkedNode;
-import com.zlz.tree.LinkedListNode;
-import com.zlz.tree.TreeNode;
+import com.zlz.problems.tree.LinkedListNode;
+import com.zlz.problems.tree.TreeNode;
 
 /**
  * Ѷ˫

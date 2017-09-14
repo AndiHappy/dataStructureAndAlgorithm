@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import com.zlz.tree.TreeNode;
+import com.zlz.problems.tree.TreeNode;
 
 /**
  * @author zhailzh

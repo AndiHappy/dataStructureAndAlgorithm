@@ -5,4 +5,4 @@
  * 
  *         树类型的数据结构
  */
-package com.zlz.tree;
+package com.zlz.problems.tree;
