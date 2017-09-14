@@ -27,18 +27,6 @@ public class DataFromFile {
     System.out.println(Arrays.toString(arr));
   }
 
-  /**
-   * 
-   * 
-   * @param num
-   *          ֵĸ
-   * @param min
-   *          ΧСֵ
-   * @param max
-   *          Χֵ
-   * @param fileName
-   *          ļ
-   */
   public static File creatIntData(int num, int min, int max, File file) {
 
     try {

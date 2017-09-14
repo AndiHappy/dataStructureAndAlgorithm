@@ -31,7 +31,7 @@ public class MyTreeMap<K, V> {
         }
        * 
        * */
-      new AbstractMap.SimpleImmutableEntry<>(e);
+      new AbstractMap.SimpleImmutableEntry(e);
   }
 
 

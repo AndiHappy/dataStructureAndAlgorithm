@@ -11,7 +11,12 @@ public class LinkedNode<E> {
     this.prev = prev;
   }
 
-  public LinkedNode() {}
+  public LinkedNode(E e) {
+    this.item =e;
+  }
+
+  public LinkedNode() {
+  }
 
   @Override
   public String toString() {
