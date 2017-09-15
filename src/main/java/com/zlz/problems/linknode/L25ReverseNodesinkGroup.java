@@ -1,4 +1,4 @@
-package com.zlz.problems;
+package com.zlz.problems.linknode;
 
 import com.data.util.ListNode;
 
