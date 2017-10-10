@@ -16,4 +16,24 @@ public class AlgUtil {
     list[k] = list[i];
     list[i] = m;
   }
+  
+  /**
+   * @param va
+   */
+  public static void print(int[][] va) {
+    System.out.println();
+    System.out.println();
+    for (int i = 0; i < va.length; i++) {
+      for (int j = 0; j < va[i].length; j++) {
+        if(va[i][j] > 10) {
+          System.out.print(va[i][j] + " ");
+        }else {
+          System.out.print(va[i][j] + " "+" ");
+        }
+       
+      }
+      System.out.println();
+    }
+    
+  }
 }
